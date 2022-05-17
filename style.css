@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  /* color: #fff; */
+}
+
+article {
+  display: grid;
+  background-color: #341996;
+  color: white;
+}
+
+article .overskrift {
+  place-self: center;
+  font-size: 7.5rem;
+  margin-top: 110px;
+  color: white;
+  font-weight: bold;
+}
+
+article .x {
+  place-self: center;
+  font-size: 2rem;
+  margin-top: -25px;
+  font-weight: 100;
+}
+article .tekst {
+  place-self: center;
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: 100;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-top: 70px;
+}
